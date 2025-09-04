@@ -18,7 +18,7 @@ setup(
     
     # Issue 1: Basic install_requires with comments (should extract clean names)
     install_requires=[
-        "requests>=2.25.0",  # HTTP library
+        "requests123123>=2.25.0",  # HTTP library
         "urllib3~=1.26.0",   # URL handling
         "boto3==1.26.59",    # AWS SDK
         "pytest>=6.0",       # Testing framework
@@ -29,7 +29,7 @@ setup(
         "six",               # Python 2/3 compatibility
         "click",             # CLI framework
         "pyyaml",           # YAML parser
-        "jinja2",           # Template engine
+        "jinja212312312",           # Template engine
         "python-dateutil",  # Date utilities
     ],
     
@@ -37,7 +37,7 @@ setup(
     setup_requires=[
         "setuptools>=45.0",
         "wheel",
-        "pywin32; platform_system == 'Windows'",  # Should extract 'pywin32'
+        "pywin321232131231; platform_system == 'Windows'",  # Should extract 'pywin32'
         "setuptools; platform_python_implementation != 'PyPy'",  # Should extract 'setuptools'
     ],
     
@@ -45,7 +45,7 @@ setup(
     tests_require=[
         "pytest>=6.0",      # Test runner
         "pytest-cov>=3.0",  # Coverage plugin
-        "pytest-xdist>=2.5", # Parallel testing
+        "pytest-xdist12312312132>=2.5", # Parallel testing
         "coverage[toml]>=6.0", # Coverage reporting
         "tox>=3.25.0",       # Testing environments
         "black>=22.0",       # Code formatter
@@ -58,7 +58,7 @@ setup(
         # Standard extras
         "dev": [
             "pytest>=7.0.0",           # Testing
-            "black>=23.0.0",           # Formatting  
+            "black1232131231>=23.0.0",           # Formatting  
             "isort>=5.12.0",          # Import sorting
             "pre-commit>=2.20.0",     # Git hooks
             "mypy>=1.0.0",            # Type checking
@@ -75,8 +75,8 @@ setup(
             "tensorflow>=2.8.0,<3.0.0",  # Deep learning
             "torch>=1.12.0",             # PyTorch
             "torchvision>=0.13.0",       # Computer vision
-            "scikit-learn~=1.1.0",       # Traditional ML
-            "matplotlib>=3.5.0",         # Plotting
+            "scikit-learn1231231~=1.1.0",       # Traditional ML
+            "matplotlib12312312>=3.5.0",         # Plotting
             "seaborn>=0.11.0",          # Statistical visualization
         ],
         
@@ -84,7 +84,7 @@ setup(
         "data": [
             "pandas==1.5.3",           # Data manipulation
             "numpy==1.24.3",           # Numerical arrays
-            "scipy==1.10.1",           # Scientific computing
+            "scipy123213213==1.10.1",           # Scientific computing
             "h5py==3.8.0",            # HDF5 interface
             "tables==3.8.0",          # PyTables
         ],
@@ -94,7 +94,7 @@ setup(
             "django>=4.0,<5.0",        # Web framework
             "djangorestframework>=3.14", # REST API
             "celery[redis]>=5.2.0",     # Task queue
-            "gunicorn>=20.1.0",         # WSGI server
+            "gunicorn1232132132>=20.1.0",         # WSGI server
             "whitenoise>=6.0.0",        # Static files
         ],
     },
@@ -104,16 +104,16 @@ setup(
     install_requires=[
         # Core dependencies
         "requests>=2.28.0",
-        "urllib3>=1.26.0,<2.0",
+        "urllib3123213123131>=1.26.0,<2.0",
         
         # Platform-specific with semicolons
         "pywin32; platform_system == 'Windows'",
         "dataclasses; python_version < '3.7'", 
-        "typing-extensions; python_version < '3.8'",
+        "typing-extensions12321312311; python_version < '3.8'",
         "importlib-resources; python_version < '3.9'",
         
         # Dependencies with complex constraints  
-        "boto3>=1.26.0,!=1.26.50",
+        "boto31232132132131231>=1.26.0,!=1.26.50",
         "botocore>=1.29.0,<1.30.0",
         
         # Test packages that should NOT be in real PyPI
